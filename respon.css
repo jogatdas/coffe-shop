@@ -1,0 +1,140 @@
+@media screen and (max-width: 700px){
+	html,body{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+
+	}
+	
+
+
+	.manuitem{
+		display: none;
+	}
+	.logo{
+		width: 70%;
+	}
+	.logo img{
+		float: left;
+		margin-left: 10px;
+
+	}
+	.mobileickon{
+		width: 30%;
+	}
+	.blam{
+		display: inline-block;
+	}
+	.bar{
+		width: 50%;
+		display: block;
+	}
+	
+	/****manubar css respon end****/
+
+
+	/***herosection css start***/
+	.herosection{
+		box-sizing: border-box;
+		overflow-y: hidden;
+		height: 500px;
+	}
+
+	
+	.herosection-a{
+		text-align: center;
+
+	}
+	.herosection-a h1{
+		font-size: 28px;
+		margin-top: 100px;
+	}
+	.herosection-a p{
+		font-size: 15px;
+	}
+	/****herosection responsive css end****/
+
+
+
+	/****about section start****/
+
+	.about{
+		height: auto;
+		
+	}
+	.about-row {
+		text-align: center;
+	}
+	.about-row div:first-child img{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.about-row div:last-child h1{
+		font-size: 28px;
+	}
+	/***about section css end***/
+
+
+
+
+
+	/****menu section responsive start****/
+	.manuthim{
+		height: auto;
+	}
+	.manuthim div{
+		width: 80%;
+	}
+
+	/***menu section responsiver end***/
+
+
+	/***products respon start***/
+	.Prodheding{
+		height: auto;
+	}
+	.products-row div{
+		width: 80%;
+	}
+	/***products respon end***/
+
+
+	/***review responsive****/
+	.reviewheding{
+		height: auto;
+	}
+	.review-row div{
+		width: 100%;
+		padding: 8% 0% 0% 2% ;
+
+
+	}
+	.review-row div:nth-child(3) p{
+		margin-top: 10px;
+	}
+	/***review responsiver end***/
+
+	.conheding{
+		height: auto;
+	}
+	.contact-row div iframe{
+		height: 80%;
+	}
+
+
+	.blogsheding{
+		height: auto;
+	}
+	.blog-row div{
+		width: 100%;
+	}
+	.last{
+		height: auto;
+	}
+
+
+
+	
+
+	
+}

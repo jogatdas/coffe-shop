@@ -1,0 +1,511 @@
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Verdana ;
+	scroll-behavior: smooth;
+	outline: none;
+	border: none;
+}
+
+
+
+
+
+/***manubar css start*****/
+
+.manubar{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	box-shadow: 0px 0px 5px white;
+	position: fixed;
+	z-index: 56;
+}
+.logo{
+	width: 20%;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+.logo img{
+	width: 80px;
+	height: auto;
+	padding: 7px 0px;
+}
+.manuitem{
+	width: 60%;
+	height: 80px;
+	float: left;
+}
+.manuitem ul li{
+	display: inline-block;
+	float: left;
+	line-height: 80px;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0px 20px;
+}
+
+.manuitem a{
+	text-decoration: none;
+	color: white;
+}
+.manuitem a:hover{
+	border-bottom: 3px solid #efd6a2;
+	border-top: 3px solid #efd6a2;
+	color: #efd6a2;
+	padding: 5px 0px;
+	transition: .5s;
+}
+.mobileickon{
+	width: 20%;
+	height: 80px;
+	background-color: black;
+	float: left;
+	text-align: center;
+}
+.mobileickon i{
+	font-size: 30px;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 80px;
+}
+.mobileickon i:hover{
+	color: #dba47a;
+}
+.bar{
+	width: 30%;
+	height: 500px;
+	background-color: white;
+	float: right;
+}
+.bar ul li{
+	font-size: 20px;
+	font-weight: 700px;
+	display: block;
+	padding: 20px 50px;
+
+}
+.blam{
+	display: none;
+}
+
+.bar a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/****manubar css end*****/
+
+
+/***herosection css start****/
+
+.herosection{
+	width: 100%;
+	height: 100vh;
+	background: url(img/home.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.herosection-a{
+	width: 100%;
+	height: 100%;
+	padding: 15% 0% 0% 5%;
+
+}
+.herosection-a h1{
+	font-size: 45px;
+	font-weight: 700px;
+	color: white;
+}
+.herosection-a p{
+	font-size: 17px;
+	font-weight: 600;
+	color: #a38f8f;
+	margin-top: 10px;
+}
+.herosection-a button{
+	width: 170px;
+	height: 40px;
+	font-size: 18px;
+	background-color: #c1a960;
+	color: white;
+	border: none;
+	margin-top: 25px;
+}
+.herosection-a button:hover{
+	width: 200px;
+	height: 40px;
+	transition: .5s;
+}
+/****herosection css end****/
+
+/****bootstop***/
+.h1{
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
+/***bootstop****/
+
+
+
+
+
+/***about section css start****/
+.about-row{
+	text-align: left;
+	padding: 3% 2% 2% 2%;
+
+}
+.about{
+	width: 100%;
+	height: 100Vh;
+	background-color: black;
+	text-align: center;
+	padding: 4% 0%;
+	
+}
+.about-row div:last-child {
+	padding: 8% 2% 10% 2%;
+	background-color: #13131A;
+
+
+}
+.about-row div:last-child h1{
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
+
+.about-row div:last-child p{
+	font-size: 16px;
+	font-weight: 400px;
+	color: white;
+}
+.about-row div:last-child button{
+	width: 170px;
+	height: 40px;
+	font-size: 18px;
+	background-color: #c1a960;
+	color: white;
+	border: none;
+	margin-top: 25px;
+}
+
+.about-row div:last-child button:hover{
+	width: 200px;
+	height: 40px;
+	transition: .5s;
+}
+
+/****about section css end*****/
+
+
+
+
+
+/****manu section css start*****/
+
+
+
+
+
+/*****menu section css end****/
+
+.manusection{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	text-align: center;
+	margin-top: -8px;
+}
+.manu-row{
+	padding: 3% 3%;
+}
+
+.manin-div div  {
+	box-shadow: 0px 0px 10px white;
+	padding: 5% 0%;
+	margin: 10px;
+
+}
+.btn{
+	width: 120px;
+	height: 40px;
+	color: white;
+	border: 2px solid orange ;
+	padding: 2% 3%;
+}
+
+
+
+
+
+
+/****products css start*****/
+.Prodheding{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	box-sizing: border-box;
+	padding: 5% 0%;
+	text-align: center;
+	margin-top: -8px;
+}
+
+.products-row{
+	padding: 5% 2%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.products-row div{
+	width: 30%;
+	margin: 15px;
+	height: 500px;
+	background-color: black;
+	box-shadow: 0px 0px 5px white;
+}
+.products-row div i{
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	line-height: 50px;
+	margin-top: 15px;
+}
+.products-row div i:hover{
+	background-color: #D3AD7F;
+}
+.products-row div img{
+	width: 160px;
+	margin-top: 15px;
+}
+.products-row div h2{
+	font-size: 30px;
+	margin-top: 10px;
+}
+.products-row div font i{
+	font-size: 20px;
+	border: none;
+	width: 15px;
+	height: 15px;
+	color: #D3AD7F;
+	margin-top: -20px;
+}
+.products-row div p{
+	font-size: 22px;
+	margin-top: 10px;
+}
+/****products css end***/
+
+
+
+
+
+/***review css start***/
+.reviewheding{
+	width: 100%;
+	height: 100vh;
+	margin-top: -8px;
+	background-color: black;
+	padding: 5% 0%;
+	text-align: center;
+}
+.review-row{
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5% 2%;
+}
+.review-row div{
+	width: 30%;
+	height: 400px;
+	margin: 15px;
+	background-color: black;
+	border: 1px solid white;
+	padding: 4% 2% 5% 2%;
+
+}
+.review-row{
+	padding: 5% 2% 4% 2%;
+}
+.review-row div p{
+	font-size: 15px;
+	margin-top: -20px;
+}
+.review-row div img:nth-child(3){
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.review-row div h3{
+	font-size: 28px;
+
+}
+
+.review-row div font i{
+	font-size: 20px;
+	color: #D3AD7F;
+	margin-bottom: 100px;
+}
+/***review css end****/
+
+
+
+/****contact css start***/
+.conheding{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	margin-top: -8px;
+	padding: 2% 0%;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.contact-row{
+	padding: 2% 2%;
+}
+.contact-row div{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.contact-row div:last-child {
+	background-color: #13131A;
+	margin-top: 50px;
+}
+.contact-row div input:last-child {
+	width: 96%;
+	height: 50px;
+	font-size: 20px;
+	padding: 0% 6%;
+	position: relative;
+	z-index: 1;
+	margin-top: 10px;
+	
+}
+
+.contact-row div i {
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	left: 790px;
+	z-index: 5;
+	padding: 25px 0px;
+
+}
+/****contact css end****/
+
+
+
+
+/***blog section css start****/
+.blogsheding{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	margin-top: -8px;
+	text-align: center;
+	padding: 0% 0%;
+}
+.blog-row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 3% 2%;
+
+}
+.blog-row div{
+	width: 30%;
+	height: 500px;
+	background-color: black;
+	border: 2px solid white;
+	margin: 15px;
+	text-align: left;
+	overflow: hidden;
+}
+.blog-row div img{
+	width: 108%;
+	margin-left: -20px;
+}
+.blog-row div img:hover{
+	transform: scale(1.1);
+	transition: .5s;
+}
+.blog-row div h2{
+	font-size: 25px;
+	color: white;
+	margin-top: 20px;
+}
+.blog-row div h2:hover{
+	color: #D3AD7F;
+}
+.blog-row div h3{
+	font-size: 20px;
+	color: #D3AD7F;
+}
+.blog-row div p{
+	font-size: 17px;
+	margin-top: 10px;
+}
+.blog-row div button{
+	width: 140px;
+	height: 30px;
+	background-color: #D3AD7F;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 100px;
+
+}
+.blog-row div button:hover{
+	width: 170px;
+	transition: .5s;
+}
+/*****blog section end*******/
+
+
+.lastsection{
+	width: 100%;
+	height: 400px;
+	background-color: #231c1c;
+	margin-top: -8px;
+	text-align: center;
+	padding: 5% 0%;
+}
+.lastsection h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+.lastsection p{
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	padding: 2% 2%;
+}
+.lastsection i{
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	color: white;
+	background-color: orange;
+}
